@@ -1,3 +1,5 @@
+# The actual application. HelloWorld inherits from Sinatra::Base
+# config.ru tells thin 'run HelloWorld'
 require 'sinatra'
 require 'haml'
 require 'slim'
